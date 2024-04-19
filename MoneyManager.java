@@ -322,8 +322,8 @@ public class MoneyManager {
                 try {
                     Class.forName("com.mysql.cj.jdbc.Driver");
                     url = "jdbc:mysql://localhost:3306/saving";
-                    username = "IshikaYadav";
-                    password = "Ishika@mysql";
+                    username = "your_mysql_user_id";
+                    password = "your_mysql_user_password";
                     con = DriverManager.getConnection(url, username, password);
                     String query = "select * from userdata where `User ID` = '"+user_entered_id+"'";
                     Statement st = con.createStatement();
@@ -379,8 +379,8 @@ public class MoneyManager {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/saving";
-            String username = "IshikaYadav";
-            String password = "Ishika@mysql";
+            String username = "your_mysql_user_id";
+            String password = "your_mysql_user_password";
             Connection con = DriverManager.getConnection(url, username, password);
             String query = "select * from userdata where `User ID` = '"+cu.fetchUserid()+"'";
             Statement st = con.createStatement();
@@ -760,8 +760,8 @@ public class MoneyManager {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/saving";
-        String username = "IshikaYadav";
-        String password = "Ishika@mysql";
+        String username = "your_mysql_user_id";
+        String password = "your_mysql_user_password";
         Connection con = DriverManager.getConnection(url, username, password);
 
         String query = "select * from record where `User ID` = '"+cu.fetchUserid()+"'";
@@ -912,8 +912,8 @@ public class MoneyManager {
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 String url = "jdbc:mysql://localhost:3306/saving";
-                String username = "IshikaYadav";
-                String password = "Ishika@mysql";
+                String username = "your_mysql_user_id";
+                String password = "your_mysql_user_password";
                 Connection con = DriverManager.getConnection(url, username, password);
                 String query = "select * from userdata where `User ID` = '"+cu.fetchUserid()+"'";
                 Statement st = con.createStatement();
@@ -1040,8 +1040,8 @@ public class MoneyManager {
                             e1.printStackTrace();
                         }
                         String url = "jdbc:mysql://localhost:3306/saving";
-                        String username = "IshikaYadav";
-                        String password = "Ishika@mysql";
+                        String username = "your_mysql_user_id";
+                        String password = "your_mysql_user_password";
                         try {
                             Connection con = DriverManager.getConnection(url, username, password);
                             String query = "delete from userdata where `User ID` = '"+cu.fetchUserid()+"'";
@@ -1339,8 +1339,8 @@ public class MoneyManager {
                     if(userGivenNEWPIN.equals(userOldPIN)!=true) {
                         Class.forName("com.mysql.cj.jdbc.Driver");
                         String url = "jdbc:mysql://localhost:3306/saving";
-                        String username = "IshikaYadav";
-                        String password = "Ishika@mysql";
+                        String username = "your_mysql_user_id";
+                        String password = "your_mysql_user_password";
                         Connection con = DriverManager.getConnection(url, username, password);
                         String query = "update userdata set `User Password`='"+userGivenNEWPIN+"' where `User ID`='"+cu.fetchUserid()+"'";
                         Statement st = con.createStatement();
@@ -1484,8 +1484,8 @@ public class MoneyManager {
                 try {         
                     Class.forName("com.mysql.cj.jdbc.Driver");
                     String url = "jdbc:mysql://localhost:3306/saving";
-                    String username = "IshikaYadav";
-                    String password = "Ishika@mysql";
+                    String username = "your_mysql_user_id";
+                    String password = "your_mysql_user_password";
                     Connection con = DriverManager.getConnection(url, username, password);
                     String query = "select * from userdata where `User ID` = '"+cu.fetchUserid()+"'";
                     Statement st = con.createStatement();
@@ -1663,8 +1663,8 @@ public class MoneyManager {
                 try {
                     Class.forName("com.mysql.cj.jdbc.Driver");
                     String url = "jdbc:mysql://localhost:3306/saving";
-                    String username = "IshikaYadav";
-                    String password = "Ishika@mysql";
+                    String username = "your_mysql_user_id";
+                    String password = "your_mysql_user_password";
                     Connection con = DriverManager.getConnection(url, username, password);
                     String query = "select * from userdata where `User ID` = '"+cu.fetchUserid()+"'";
                     Statement st = con.createStatement();
@@ -1791,8 +1791,8 @@ public class MoneyManager {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/saving";
-            String username = "IshikaYadav";
-            String password = "Ishika@mysql";
+            String username = "your_mysql_user_id";
+            String password = "your_mysql_user_password";
             Connection con = DriverManager.getConnection(url, username, password);
             String query = "select * from userdata where `User ID` = '"+cu.fetchUserid()+"'";
             Statement st = con.createStatement();
@@ -2291,8 +2291,8 @@ public class MoneyManager {
     public static void insertNewUser(Runnable callback) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/saving";
-        String username = "IshikaYadav";
-        String password = "Ishika@mysql";
+        String username = "your_mysql_user_id";
+        String password = "your_mysql_user_password";
         Connection con = DriverManager.getConnection(url, username, password);
         /*
             `User ID` varchar(6) primary key,
@@ -2429,8 +2429,8 @@ public class MoneyManager {
     private static String provideTransactionnumber() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/saving";
-        String username = "IshikaYadav";
-        String password = "Ishika@mysql";
+        String username = "your_mysql_user_id";
+        String password = "your_mysql_user_password";
         Connection con = DriverManager.getConnection(url, username, password);
         String countQuery = "select count(*) as maxCurrentRow from record";
         Statement countStatement = con.createStatement();
