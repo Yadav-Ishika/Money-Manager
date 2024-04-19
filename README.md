@@ -42,9 +42,9 @@ Apache-2.0 license
 ## Support
 Contact me at :-
 
-LinkedIn Account : https://www.linkedin.com/in/ishika-yadav-86839127a/
-Instagram Account : @y.ishika_
-Email At : ishikaa.connect@gmail.com
+1. LinkedIn Account : https://www.linkedin.com/in/ishika-yadav-86839127a/
+2. Instagram Account : @y.ishika_
+3. Email At : ishikaa.connect@gmail.com
 
 ## Changelog
 Currently working on 2nd point of Contributing section.
