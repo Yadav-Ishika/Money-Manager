@@ -8,7 +8,7 @@ create table record (
     `Transaction Number` int primary key,
     `Transaction Date` varchar(10) not null,
     `Transaction Time` varchar(8) not null,
-    `Transaction Mode` varchar(6) not null, 
+    `Transaction Mode` varchar(6) not null,
     `Transaction Amount` bigint not null,
     `Transaction Reason` varchar(100)
 );
