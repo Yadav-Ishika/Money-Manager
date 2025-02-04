@@ -1,7 +1,7 @@
 # Money-Manager
 
 ## Project Title
-Money Manager
+Money Manager 
 
 ## Description
 The "Money Manager" project is a Java-based application developed using Swing and AWT libraries, designed to assist users in efficiently managing their finances. This comprehensive program encompasses various modules to cater to different financial needs, providing users with a seamless experience.
