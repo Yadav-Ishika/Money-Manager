@@ -10,7 +10,7 @@ The core functionalities of the project include a login module for secure access
 
 Built on MySQL with JDBC for database management, the project ensures robust data storage and retrieval capabilities. With a user-friendly interface and intuitive navigation, the Money Manager empowers individuals to effectively monitor and control their financial activities. Whether it's tracking expenses, managing savings, or analyzing spending patterns, this application offers a comprehensive solution for personal finance management.
 
-With features like dynamic password handling, account management, and transaction tracking, "Money Manager" empowers users to effectively monitor and control their financial activities.
+With features like dynamic password handling, account management, and transaction tracking, "Money Manager" empowers users to effectively monitor and control their financial activities. 
 
 ## Installation and Requirements
 1. Download the `.zip file` and extract it at place of your choice
